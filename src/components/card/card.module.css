@@ -7,7 +7,6 @@
 }
 
 .title {
-  grid-area: top;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -16,9 +15,7 @@
 }
 
 .cards {
-  grid-area: bottom;
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
